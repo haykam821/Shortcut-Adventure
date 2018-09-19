@@ -1,0 +1,30 @@
+{
+	"areas": {
+		"begin": {
+			"prompt": "Welcome to the adventure!",
+			"choices": [{
+				"name": "Go back to the beginning...",
+				"actions": [{
+					"type": "goto",
+					"room": "begin"
+				}]
+			}, {
+				"name": "Go to the next room!",
+				"actions": [{
+					"type": "goto",
+					"room": "next"
+				}]
+			}]
+		},
+		"next": {
+			"prompt": "More will be added soon as this is just a proof-of-concept!",
+			"choices": [{
+				"name": "Okay, I guess...",
+				"actions": [{
+					"type": "goto",
+					"room": "begin"
+				}]
+			}]
+		}
+	}
+}
